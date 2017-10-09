@@ -1,0 +1,85 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 200%;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+.navbar {
+    background-color: #222222;
+    color: gray;
+}
+
+.myface {
+    margin: 20px 0px;
+}
+
+.datecol {
+    padding: 5px;
+    margin-top: 5px;
+    border-right: 2px solid lightgrey;
+}
+
+.date {
+    margin: 0px;
+}
+
+.article {
+    margin-top: 30px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.articletitle {
+    margin-top: 0px;
+}
+
+.articleimg {
+    max-width: 1000px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+.big {
+    font-size: 100px;
+}
+
+.li-header {
+    margin: 0;
+}
+
+.main-bg-color {
+    background-color: #00AF7C;
+}
+
+.main-color {
+    color: #00AF7C;
+}
+
+.main-text-color {
+    color: white;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    text-align: left;
+}
+
+.icon-text {
+    margin: 10px;
+    text-align: left;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1600px;
+    }
+}
