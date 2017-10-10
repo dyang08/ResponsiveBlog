@@ -1,3 +1,3 @@
 # Responsive Blog
 
-![View static pages](https://dyang08.github.io/ResponsiveBlog/)
+[View static pages](https://dyang08.github.io/ResponsiveBlog/)
