@@ -1,8 +1,3 @@
-# bootstrap challenge
+# Responsive Blog
 
-
-1. Build the screen shot below with bootstrap.
-
-![screen shot](bootstrap-challenge.png)
-
-
+![View static pages](https://dyang08.github.io/ResponsiveBlog/)
