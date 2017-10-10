@@ -3,16 +3,16 @@ body {
     font-size: 200%;
 }
 
+.navbar {
+    background-color: #222222;
+    color: gray;
+}
+
 .footer {
     padding-top: 40px;
     padding-bottom: 40px;
     margin-top: 40px;
     border-top: 1px solid #eee;
-}
-
-.navbar {
-    background-color: #222222;
-    color: gray;
 }
 
 .myface {
@@ -31,6 +31,7 @@ body {
 
 .article {
     margin-top: 30px;
+    padding-bottom: 30px;
     border-bottom: 2px solid lightgrey;
 }
 
@@ -39,47 +40,19 @@ body {
 }
 
 .articleimg {
-    max-width: 1000px;
+    display: none;
+    width: 50%;
 }
 
 span {
     font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    color: darkred;
 }
 
-.big {
-    font-size: 100px;
-}
-
-.li-header {
-    margin: 0;
-}
-
-.main-bg-color {
-    background-color: #00AF7C;
-}
-
-.main-color {
-    color: #00AF7C;
-}
-
-.main-text-color {
-    color: white;
-}
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-    text-align: left;
-}
-
-.icon-text {
-    margin: 10px;
-    text-align: left;
-}
-
-@media (min-width: 1200px) {
-    .container{
-        max-width: 1600px;
+@media (min-width: 768px) {
+    .articleimg {
+        display: block;
     }
 }
